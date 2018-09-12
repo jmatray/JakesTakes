@@ -1,0 +1,61 @@
+.App {
+  color: #E7F2F8;
+  text-shadow: 0px 5px 15px #000000;
+}
+
+.Intro-Title {
+  height: auto;
+  font-family: 'Playfair Display', serif;
+}
+
+.Title {
+  font-size: 4.5em;
+  margin: 0em;
+  padding: 0em;
+}
+
+.Intro {
+  font-size: 1.3em;
+  padding-left: .6em;
+  margin-top: 0em;
+  padding-top: 0em;
+  font-style: italic;
+}
+
+.Menu {
+  
+  background: rgba(86, 204, 242, 0.3);
+  padding-left: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .Intro-Title {
+    align-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: 'Playfair Display', serif;
+    padding: 1em;
+  }
+  
+  .Intro {
+    font-size: 1em;
+    padding: 0;
+  }
+  
+  .Title {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .Intro-Title {
+  padding-left: 4em;
+  padding-top: 2em;
+  }
+  
+  .Intro {
+    width: 30rem;
+  }
+  
+}
