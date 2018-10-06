@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { HashRouter as Router, Route, Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem, Button, ButtonGroup, Glyphicon } from 'react-bootstrap';
+
 import MediaQuery from 'react-responsive';
 
 
@@ -46,7 +45,7 @@ class Menu extends Component {
                 </MediaQuery>
                 <MediaQuery maxWidth={700}>
                     <div className="navBar dropdown" onClick={this.toggleDropDown}>
-                        <p className="currentView">{this.state.currentView}</p>
+                        <p className="currentView">{this.props.currentView}</p>
                         <i className="fas fa-bars hamburgerMenu"></i>
                         <div id="myDropdown" className={this.state.dropDownActive ? "dropdown-content show": "dropdown-content"} >
                             {this.createMenuItems()}

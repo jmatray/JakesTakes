@@ -23,7 +23,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="App fade-in">
         <Title homeTitle={this.homeTitle} handleTitleSelect={this.handleChange}/>
         <MainContainer currentView={this.state.currentView} handleMenuSelect={this.handleChange}/>
 

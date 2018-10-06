@@ -1,11 +1,11 @@
 html {
   margin: 0;
-  height: 100%;
+  height: auto;
   font-family: 'Playfair Display', serif;
   background: rgb(4,58,249); /* Old browsers */
-  background: -moz-linear-gradient(-45deg, rgba(4,58,249,1) 0%, rgba(5,252,248,1) 50%, rgba(201,0,177,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, rgba(4,58,249,1) 0%,rgba(5,252,248,1) 50%,rgba(201,0,177,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, rgba(4,58,249,1) 0%,rgba(5,252,248,1) 50%,rgba(201,0,177,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient( #3ab5b0 0%, #3d99be 31%, #56317a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient( #3ab5b0 0%, #3d99be 31%, #56317a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient( #3ab5b0 0%, #3d99be 31%, #56317a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#043af9', endColorstr='#c900b1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   background-attachment:fixed;
   background-repeat: no-repeat;
